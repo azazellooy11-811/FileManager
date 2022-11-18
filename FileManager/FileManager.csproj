@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Service\" />
+    <None Remove="Service\PathFinder\" />
+    <None Remove="Service\Scaner\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\PathFinder\" />
+    <Folder Include="Service\Scaner\" />
+  </ItemGroup>
 </Project>
